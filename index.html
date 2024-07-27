@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="grid_container">
+        <div class="left_part">
+          <div class="logo">
+            <img src="./images/logo.svg" alt="" srcset="" />
+          </div>
+          <img
+            src="./images/hero-mobile.jpg"
+            alt=""
+            class="mobile"
+            style="display: none"
+          />
+          <div class="middle_part">
+            <div class="title">
+              <span class="title_color">WE ' RE</span> <br />
+              comming <br />
+              soon
+            </div>
+            <div class="desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+              vero odit provident maxime voluptatem repellat quod pariatur non
+              dolor cum, facere laborum commodi tenetur ipsa esse, quo ipsum
+              velit doloribus. Non, eaque officia fuga ex in tempora, iusto
+              excepturi suscipit, explicabo sint error veniam. Doloribus
+              blanditiis eos alias ex quis?
+            </div>
+            <div>
+              <div class="input_part_flex">
+                <div class="input_part">
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email Address"
+                    class="input"
+                    id="email_input"
+                  />
+                </div>
+
+                <button class="btn_color" id="submit_btn" disabled>
+                  <img src="./images/icon-arrow.svg" alt="" srcset="" />
+                </button>
+              </div>
+              <div id="error"></div>
+            </div>
+          </div>
+        </div>
+        <div class="right_part">
+          <img src="./images/hero-desktop.jpg" class="avater" alt="" />
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
